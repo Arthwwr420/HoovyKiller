@@ -6,3 +6,11 @@ function kill(){
     var audio = new Audio('team-fortress-2-heavy---death-made-with-Voicemod.mp3');
     audio.play()
 }
+
+function select(){
+    document.getElementById('engie').style.backgroundColor = 'gray';
+}
+
+function deselect(){
+    document.getElementById('engie').style.backgroundColor = 'transparent';
+}
